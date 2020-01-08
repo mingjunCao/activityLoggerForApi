@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "src"
+            "mingjun\\Activitylog\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -48,7 +48,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activitylog\\Test\\": "tests"
+            "mingjun\\Activitylog\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -58,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mingjun\\activitylog-for-google-api\\ActivitylogServiceProvider"
+                "mingjun\\Activitylog\\ActivitylogServiceProvider"
             ]
         }
     },
