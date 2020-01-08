@@ -58,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mingjun\\activitylogForGoogleApi\\ActivitylogServiceProvider"
+                "mingjun\\activitylog-for-google-api\\ActivitylogServiceProvider"
             ]
         }
     },
