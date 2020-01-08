@@ -1,13 +1,9 @@
 {
-    "name": "spatie/laravel-activitylog",
-    "description": "A very simple activity logger to monitor the users of your website or application",
+    "name": "mingjun/activitylogForGoogleApi",
+    "description": "adaptation from spatie/activityLog",
     "homepage": "https://github.com/spatie/activitylog",
     "keywords": [
-        "spatie",
-        "log",
-        "user",
-        "activity",
-        "laravel"
+
     ],
     "authors": [
         {
@@ -62,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Activitylog\\ActivitylogServiceProvider"
+                "mingjun\\activitylogForGoogleApi\\ActivitylogServiceProvider"
             ]
         }
     },
