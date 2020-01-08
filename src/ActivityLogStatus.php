@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace mingjun\Activitylog;
 
 use Illuminate\Contracts\Config\Repository;
 

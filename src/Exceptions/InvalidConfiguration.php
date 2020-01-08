@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog\Exceptions;
+namespace mingjun\Activitylog\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Contracts\Activity;
+use mingjun\Activitylog\Contracts\Activity;
 
 class InvalidConfiguration extends Exception
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace mingjun\Activitylog;
 
 use App\User;
 use mysql_xdevapi\Exception;
-use Spatie\String\Str;
+use mingjun\String\Str;
 use Illuminate\Support\Arr;
 use Illuminate\Auth\AuthManager;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Contracts\Config\Repository;
-use Spatie\Activitylog\Exceptions\CouldNotLogActivity;
-use Spatie\Activitylog\Contracts\Activity as ActivityContract;
+use mingjun\Activitylog\Exceptions\CouldNotLogActivity;
+use mingjun\Activitylog\Contracts\Activity as ActivityContract;
 
 class ActivityLogger
 {
@@ -25,10 +25,10 @@ class ActivityLogger
     /** @var string */
     protected $authDriver;
 
-    /** @var \Spatie\Activitylog\ActivityLogStatus */
+    /** @var \mingjun\Activitylog\ActivityLogStatus */
     protected $logStatus;
 
-    /** @var \Spatie\Activitylog\Contracts\Activity */
+    /** @var \mingjun\Activitylog\Contracts\Activity */
     protected $activity;
 
     public function __construct(AuthManager $auth, Repository $config, ActivityLogStatus $logStatus)

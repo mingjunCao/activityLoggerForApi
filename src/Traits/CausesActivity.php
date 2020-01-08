@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace mingjun\Activitylog\Traits;
 
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use mingjun\Activitylog\ActivitylogServiceProvider;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait CausesActivity

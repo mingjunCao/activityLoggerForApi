@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Activitylog\Models;
+namespace mingjun\Activitylog\Models;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Spatie\Activitylog\Contracts\Activity as ActivityContract;
+use mingjun\Activitylog\Contracts\Activity as ActivityContract;
 
 class Activity extends Model implements ActivityContract
 {

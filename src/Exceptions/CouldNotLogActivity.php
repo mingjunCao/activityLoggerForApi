@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Exceptions;
+namespace mingjun\Activitylog\Exceptions;
 
 use Exception;
 

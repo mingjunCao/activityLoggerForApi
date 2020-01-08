@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Contracts;
+namespace mingjun\Activitylog\Contracts;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
